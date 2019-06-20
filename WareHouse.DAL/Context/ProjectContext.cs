@@ -13,7 +13,7 @@ namespace WareHouse.DAL.Context
     {
         public ProjectContext()
         {
-            Database.Connection.ConnectionString = "Server=DESKTOP-1KMD7N2;Database=CodeFirstWareHouse;UID=admin2;PWD=alp123;";
+            Database.Connection.ConnectionString = "Server=DESKTOP-***;Database=CodeFirstWareHouse;UID=***;PWD=***;";
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
